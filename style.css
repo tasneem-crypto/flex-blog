@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* <!-- global message  --> */
+.global-message {
+  background: skyblue;
+  height: 2.5rem;
+}
+
+.global-message > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* <!-- navbar  --> */
+header {
+  height: 100px;
+  background-color: blue;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+}
+
+header ul > li {
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+/* <!-- hero  --> */
+.hero {
+  background-color: red;
+  background-image: url("./assets/hero.jpg");
+  background-size: contain;
+  height: 500px;
+  color: white;
+}
+
+.hero > div {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .hero-item {
+  height: 300px;
+  background-color: rgba(71, 71, 71, 0.459);
+  /* background-color: #0000ff; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 20px;
+  gap: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px rgba(71, 71, 71, 0.459);
+}
+
+.hero .hero-item > hr {
+  width: 100%;
+}
+
+.hero .hero-item .hero-title {
+  font-size: 2rem;
+}
+
+.hero .hero-item .hero-description {
+  font-size: 1rem;
+}
+
+/* <!-- Latest Posts --> */
+
+/* <!-- Recommendation Destination --> */
+
+/* <!-- Subscribe --> */
+
+/* <!-- footer  --> */
